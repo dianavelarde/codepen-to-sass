@@ -42,3 +42,7 @@ html {
 .menu.is-open .menu-list {
   transform: translateY(0);
 }
+
+.menu-control {
+  cursor: pointer;
+}
