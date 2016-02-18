@@ -26,3 +26,12 @@ html {
 }
 
 .menu-control {cursor: pointer;}
+
+.menu-content {
+  visibility: hidden;
+  overflow: hidden;
+  width: 100%;
+  position: absolute;
+  top: 100%;
+  right: 0;
+}
