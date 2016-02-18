@@ -69,3 +69,20 @@ ul {list-style-type: none; margin: 0; padding: 0;}
   color: #fff;
   position: relative;
 }
+
+.content-wrapper {
+  text-align: justify;
+  font-size: 0; // remove spaces
+  
+  > * {
+    font-size: 32px;
+    display: inline-block;
+    margin: 0;
+  }
+    
+    &:after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+  }
+}
