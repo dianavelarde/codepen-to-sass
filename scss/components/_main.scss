@@ -61,3 +61,11 @@ html {
 // Page Layout ----
 body {font-family: Helvetica, sans-serif; margin: 0;}
 ul {list-style-type: none; margin: 0; padding: 0;}
+
+.page-header, main {padding: 0.8em;}
+
+.page-header {
+  background: darkred;
+  color: #fff;
+  position: relative;
+}
