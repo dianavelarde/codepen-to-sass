@@ -37,8 +37,8 @@ html {
 }
 
 .menu-list {
-  background: $white;
-  color: $black;
+  background: $dark-grey;
+  color: $white;
   font-size: 24px;
   transition: .5s ease;
   transform: translateY(-100%);
@@ -52,7 +52,7 @@ html {
     display: block;
     padding: 0.3em 0.5em;
     
-    &:hover {background: lighten($light-grey, 7%);}
+    &:hover {background: lighten($mustard-yellow, 7%);}
   }
 }
 
@@ -83,4 +83,13 @@ ul {list-style-type: none; margin: 0; padding: 0;}
     display: inline-block;
     width: 100%;
   }
+}
+@media only screen and (min-width: 38em) {
+    .menu-content {
+        width: 40%;
+    }
+}@media only screen and (min-width: 60em) {
+    .menu-content {
+        width: 15%;
+    }
 }

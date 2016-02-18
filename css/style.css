@@ -57,8 +57,8 @@ html {
 }
 
 .menu-list {
-  background: #fff;
-  color: #000;
+  background: #222;
+  color: #fff;
   font-size: 24px;
   transition: .5s ease;
   transform: translateY(-100%);
@@ -74,7 +74,7 @@ html {
 }
 
 .menu-list a:hover {
-  background: #dedede;
+  background: #fba32e;
 }
 
 body {
@@ -113,4 +113,16 @@ ul {
   content: "";
   display: inline-block;
   width: 100%;
+}
+
+@media only screen and (min-width: 38em) {
+  .menu-content {
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  .menu-content {
+    width: 15%;
+  }
 }
