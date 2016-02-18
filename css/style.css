@@ -57,19 +57,16 @@ html {
 }
 
 .menu-list {
-  background: #ccc;
+  background: #fff;
   color: #000;
   font-size: 24px;
   transition: .5s ease;
   transform: translateY(-100%);
 }
 
-.menu-list li + li {
-  border-top: 1px solid;
-}
-
 .menu-list a {
   color: inherit;
+  text-align: right;
   text-decoration: none;
   transition: .5s background;
   display: block;
@@ -96,7 +93,7 @@ ul {
 }
 
 .page-header {
-  background: darkred;
+  background: #c10000;
   color: #fff;
   position: relative;
 }

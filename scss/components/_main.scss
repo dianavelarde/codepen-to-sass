@@ -37,24 +37,22 @@ html {
 }
 
 .menu-list {
-  background: #ccc;
-  color: #000;
+  background: $white;
+  color: $black;
   font-size: 24px;
   transition: .5s ease;
   transform: translateY(-100%);
   
-  li + li {
-    border-top: 1px solid;
-  }
   
   a {
     color: inherit;
+    text-align: right;
     text-decoration: none;
     transition: .5s background;
     display: block;
     padding: 0.3em 0.5em;
     
-    &:hover {background: lighten(#ccc, 7%);}
+    &:hover {background: lighten($light-grey, 7%);}
   }
 }
 
@@ -65,8 +63,8 @@ ul {list-style-type: none; margin: 0; padding: 0;}
 .page-header, main {padding: 0.8em;}
 
 .page-header {
-  background: darkred;
-  color: #fff;
+  background: $red;
+  color: $white;
   position: relative;
 }
 
